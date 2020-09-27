@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@700&display=swap');
+
+.mainBlock {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mainBlockDark {
+    display: flex;
+    justify-content: space-between;
+    background-color: #121212;
+}
+
+.burgerMenu {
+    margin-top: 32px;
+    margin-left: 32px;
+    margin-right: 32px;
+    width: 44px;
+    padding: 10px;
+}
+
+.burgerMenuDark {
+    margin-top: 32px;
+    margin-left: 32px;
+    margin-right: 32px;
+    width: 44px;
+    padding: 10px;
+}
+
+.mainText {
+    margin-top: 32px;
+    font-size: 48px;
+    font-family: 'IBM Plex Mono', monospace;
+    margin-bottom: 32px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.mainTextDark {
+    margin-top: 32px;
+    font-size: 48px;
+    font-family: 'IBM Plex Mono', monospace;
+    margin-bottom: 32px;
+    font-weight: 700;
+    color: white;
+    opacity: 87%;
+    text-align: center;
+}
+
+.lightThemeIcon {
+    margin-top: 32px;
+    margin-right: 32px;
+    margin-left: 32px;
+    width: 44px;
+    padding: 10px;
+}
+
+@media (max-width: 1236px) {
+    .mainText {
+        margin-top: 36px;
+        font-size: 40px;
+        font-family: 'IBM Plex Mono', monospace;
+        margin-bottom: 32px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .mainTextDark {
+        margin-top: 36px;
+        font-size: 40px;
+        font-family: 'IBM Plex Mono', monospace;
+        margin-bottom: 32px;
+        font-weight: 700;
+        color: white;
+        opacity: 87%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 1070px) {
+    .mainText {
+        margin-top: 40px;
+        font-size: 38px;
+        font-family: 'IBM Plex Mono', monospace;
+        margin-bottom: 32px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .mainTextDark {
+        margin-top: 40px;
+        font-size: 38px;
+        font-family: 'IBM Plex Mono', monospace;
+        margin-bottom: 32px;
+        font-weight: 700;
+        color: white;
+        opacity: 87%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 1024px) {
+    .mainText {
+        margin-top: 40px;
+        font-size: 36px;
+        font-family: 'IBM Plex Mono', monospace;
+        margin-bottom: 32px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .mainTextDark {
+        margin-top: 40px;
+        font-size: 36px;
+        font-family: 'IBM Plex Mono', monospace;
+        margin-bottom: 32px;
+        font-weight: 700;
+        color: white;
+        opacity: 87%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 990px) {
+    .mainText {
+        margin-top: 40px;
+        font-size: 34px;
+        font-family: 'IBM Plex Mono', monospace;
+        margin-bottom: 32px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .mainTextDark {
+        margin-top: 40px;
+        font-size: 34px;
+        font-family: 'IBM Plex Mono', monospace;
+        margin-bottom: 32px;
+        font-weight: 700;
+        color: white;
+        opacity: 87%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 948px) {
+    .mainText {
+        margin-top: 40px;
+        font-size: 32px;
+        font-family: 'IBM Plex Mono', monospace;
+        margin-bottom: 32px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .mainTextDark {
+        margin-top: 40px;
+        font-size: 32px;
+        font-family: 'IBM Plex Mono', monospace;
+        margin-bottom: 32px;
+        font-weight: 700;
+        color: white;
+        opacity: 87%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 734px) {
+    .mainText {
+        margin-top: 32px;
+        font-size: 24px;
+        font-family: 'IBM Plex Mono', monospace;
+        margin-bottom: 32px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .mainTextDark {
+        margin-top: 32px;
+        font-size: 24px;
+        font-family: 'IBM Plex Mono', monospace;
+        margin-bottom: 32px;
+        font-weight: 700;
+        color: white;
+        opacity: 87%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 400px) {
+    .mainText {
+        margin-top: 23px;
+        font-size: 16px;
+        font-family: 'IBM Plex Mono', monospace;
+        margin-bottom: 23px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .mainTextDark {
+        margin-top: 23px;
+        font-size: 16px;
+        font-family: 'IBM Plex Mono', monospace;
+        margin-bottom: 23px;
+        font-weight: 700;
+        color: white;
+        opacity: 87%;
+        text-align: center;
+    }
+
+    .burgerMenu {
+        margin-top: 24px;
+        margin-left: 16px;
+        margin-right: 16px;
+        width: 32px;
+        padding: 4px;
+    }
+
+    .burgerMenuDark {
+        margin-top: 24px;
+        margin-left: 16px;
+        margin-right: 16px;
+        width: 32px;
+        padding: 4px;
+    }
+
+    .lightThemeIcon {
+        margin-top: 24px;
+        margin-left: 16px;
+        margin-right: 16px;
+        width: 32px;
+        padding: 4px;
+    }
+}

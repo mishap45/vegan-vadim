@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@600&display=swap');
+
+.mainBlock {
+    margin-left: 32px;
+    margin-right: 32px;
+    padding-bottom: 32px;
+}
+
+.headerMainContentBlock {
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 600;
+    text-decoration: underline;
+    font-size: 16px;
+    color: black;
+}
+
+.headerMainContentBlock:hover {
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 600;
+    text-decoration: underline;
+    font-size: 16px;
+    color: #D500F9;
+}
+
+.headerMainContentBlockDark {
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 600;
+    text-decoration: underline;
+    font-size: 16px;
+    color: white;
+    opacity: 87%;
+}
+
+.headerMainContentBlockDark:hover {
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 600;
+    text-decoration: underline;
+    font-size: 16px;
+    color: #03DAC5;
+}
+
+.descriptionMainContentBlock {
+    font-family: 'IBM Plex Mono', monospace;
+    margin-top: 0;
+    padding-top: 8px;
+    font-size: 16px;
+}
+
+.descriptionMainContentBlockDark {
+    font-family: 'IBM Plex Mono', monospace;
+    margin-top: 0;
+    padding-top: 8px;
+    font-size: 16px;
+    color: white;
+    opacity: 87%;
+}
+
+@media (max-width: 400px) {
+    .descriptionMainContentBlock {
+        font-family: 'IBM Plex Mono', monospace;
+        margin-top: 0;
+        padding-top: 8px;
+        font-size: 16px;
+        line-height: 150%;
+    }
+
+    .descriptionMainContentBlockDark {
+        font-family: 'IBM Plex Mono', monospace;
+        margin-top: 0;
+        padding-top: 8px;
+        font-size: 16px;
+        color: white;
+        opacity: 87%;
+        line-height: 150%;
+    }
+
+    .mainBlock {
+        margin-left: 16px;
+        margin-right: 16px;
+        padding-bottom: 16px;
+    }
+}

@@ -1,26 +1,24 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, {useState} from 'react'
+import './App.css'
+import Header from './Components/Header/Header'
+import HeaderArticleBlocks from './Components/HeaderArticaleBlocks/HeaderArticleBlocks'
+import InfoBlocks from './Components/InfoBlocks/InfoBlocks'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const App = () => {
+
+    const [darkTheme, ChangeTheme] = useState(false);
+
+    const ChangeThemeFC = () => {
+        darkTheme ? ChangeTheme(false) : ChangeTheme(true)
+    };
+
+    return (
+        <div>
+            <Header darkTheme={darkTheme} ChangeTheme={ChangeThemeFC} />
+            <HeaderArticleBlocks darkTheme={darkTheme} ChangeTheme={ChangeThemeFC} />
+            <InfoBlocks darkTheme={darkTheme} ChangeTheme={ChangeThemeFC} />
+        </div>
+    )
+};
 
 export default App;
