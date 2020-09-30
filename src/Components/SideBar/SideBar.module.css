@@ -20,7 +20,7 @@
 
 .blackPart {
     background-color: black;
-    opacity: 80%;
+    opacity: .80;
     width: 35%;
 
     animation-name: fadeInLeft;
@@ -58,7 +58,7 @@
     font-weight: 400;
     font-size: 68px;
     color: white;
-    opacity: 87%;
+    opacity: .87;
 }
 
 .bigTextTY {
@@ -74,7 +74,7 @@
     font-weight: 400;
     font-size: 68px;
     color: white;
-    opacity: 87%;
+    opacity: .87;
 }
 
 .memeImage {
@@ -105,7 +105,7 @@
         font-weight: 400;
         font-size: 58px;
         color: white;
-        opacity: 87%;
+        opacity: .87;
     }
 
     .bigTextTY {
@@ -121,7 +121,7 @@
         font-weight: 400;
         font-size: 58px;
         color: white;
-        opacity: 87%;
+        opacity: .87;
     }
 }
 
@@ -139,7 +139,7 @@
         font-weight: 400;
         font-size: 38px;
         color: white;
-        opacity: 87%;
+        opacity: .87;
     }
 
     .bigTextTY {
@@ -155,7 +155,7 @@
         font-weight: 400;
         font-size: 38px;
         color: white;
-        opacity: 87%;
+        opacity: .87;
     }
 
     .memeImage {
@@ -183,7 +183,7 @@
 
     .blackPart {
         background-color: black;
-        opacity: 80%;
+        opacity: .80;
         width: 20%;
 
         animation-name: fadeInLeft;
@@ -207,7 +207,7 @@
         font-weight: 400;
         font-size: 32px;
         color: white;
-        opacity: 87%;
+        opacity: .87;
     }
 
     .memeImage {
@@ -228,6 +228,6 @@
         font-weight: 400;
         font-size: 32px;
         color: white;
-        opacity: 87%;
+        opacity: .87;
     }
 }

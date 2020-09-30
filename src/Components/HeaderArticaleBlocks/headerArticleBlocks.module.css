@@ -11,7 +11,7 @@
 .bigTextDark {
     font-family: 'IBM Plex Mono', monospace;
     font-size: 86px;
-    opacity: 87%;
+    opacity: .87;
     color: white;
     margin: 0;
     padding-left: 32px;
@@ -42,7 +42,7 @@
     .bigTextDark {
         font-family: 'IBM Plex Mono', monospace;
         font-size: 68px;
-        opacity: 87%;
+        opacity: .87;
         color: white;
         margin: 0;
         padding-left: 32px;
@@ -62,7 +62,7 @@
     .bigTextDark {
         font-family: 'IBM Plex Mono', monospace;
         font-size: 54px;
-        opacity: 87%;
+        opacity: .87;
         color: white;
         margin: 0;
         padding-left: 32px;
@@ -82,7 +82,7 @@
     .bigTextDark {
         font-family: 'IBM Plex Mono', monospace;
         font-size: 30px;
-        opacity: 87%;
+        opacity: .87;
         color: white;
         margin: 0;
         padding-left: 16px;

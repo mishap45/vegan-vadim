@@ -13,7 +13,7 @@
     margin: 32px;
     font-size: 24px;
     color: white;
-    opacity: 87%;
+    opacity: .87;
 }
 
 @media (max-width: 400px) {
@@ -31,6 +31,6 @@
         padding-top: 32px;
         font-size: 24px;
         color: white;
-        opacity: 87%;
+        opacity: .87;
     }
 }
