@@ -232,3 +232,49 @@
         padding: 4px;
     }
 }
+
+@media (max-width: 320px) {
+    .mainText {
+        margin-top: 26px;
+        font-size: 14px;
+        font-family: 'IBM Plex Mono', monospace;
+        margin-bottom: 23px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .mainTextDark {
+        margin-top: 26px;
+        font-size: 14px;
+        font-family: 'IBM Plex Mono', monospace;
+        margin-bottom: 23px;
+        font-weight: 700;
+        color: white;
+        opacity: 87%;
+        text-align: center;
+    }
+
+    .burgerMenu {
+        margin-top: 24px;
+        margin-left: 16px;
+        margin-right: 16px;
+        width: 32px;
+        padding: 4px;
+    }
+
+    .burgerMenuDark {
+        margin-top: 24px;
+        margin-left: 16px;
+        margin-right: 16px;
+        width: 32px;
+        padding: 4px;
+    }
+
+    .lightThemeIcon {
+        margin-top: 24px;
+        margin-left: 16px;
+        margin-right: 16px;
+        width: 32px;
+        padding: 4px;
+    }
+}

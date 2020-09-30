@@ -129,8 +129,9 @@ const InfoBlocks: React.FC<DarkTheme> = ({darkTheme}) => {
 
             <div className={darkTheme ? infoBlocks.EndBlockDark : infoBlocks.EndBlock}>
                 <p className={darkTheme ? infoBlocks.EndDark : infoBlocks.End}>made by <a
-                    href="" className={darkTheme ? infoBlocks.instaDark : infoBlocks.insta}> vegan.vadim</a> & <a
-                    href=""
+                    href="https://www.instagram.com/vegan.vadim/"
+                    className={darkTheme ? infoBlocks.instaDark : infoBlocks.insta}> vegan.vadim</a> & <a
+                    href="https://www.instagram.com/mishap45/"
                     className={darkTheme ? infoBlocks.instaDark : infoBlocks.insta}> misha.pavlov(MiLov)</a> with love &
                     dope</p>
             </div>

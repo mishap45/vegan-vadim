@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
+
+.mainBlock {
+    width: 65%;
+    background-color: #fff;
+    overflow-y: scroll !important;
+    height: 100vh;
+    overflow-x: hidden;
+    z-index: 55;
+}
+
+.mainBlockDark {
+    width: 65%;
+    background-color: #232323;
+    overflow-y: scroll !important;
+    height: 100vh;
+    overflow-x: hidden;
+    z-index: 55;
+}
+
+.blackPart {
+    background-color: black;
+    opacity: 80%;
+    width: 35%;
+
+    animation-name: fadeInLeft;
+    animation-fill-mode: both;
+    animation-duration: 1.5s;
+    animation-delay: 0s;
+}
+
+.sideBarBlock {
+    display: flex;
+    position: absolute;
+    z-index: 9999999;
+    width: 100%;
+
+    animation-name: fadeInLeft;
+    animation-fill-mode: both;
+    animation-duration: 2s;
+    animation-delay: -0.5s;
+}
+
+.sideBarBlockHide {
+    display: none;
+}
+
+.bigText {
+    margin: 32px;
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 400;
+    font-size: 68px;
+}
+
+.bigTextDark {
+    margin: 32px;
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 400;
+    font-size: 68px;
+    color: white;
+    opacity: 87%;
+}
+
+.bigTextTY {
+    margin: 32px;
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 400;
+    font-size: 68px;
+}
+
+.bigTextTYDark {
+    margin: 32px;
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 400;
+    font-size: 68px;
+    color: white;
+    opacity: 87%;
+}
+
+.memeImage {
+    margin: 0 32px 0 32px;
+    width: 93%;
+}
+
+@keyframes fadeInLeft {
+    from {
+        transform: translatex(-700px);
+    }
+    to {
+        transform: translatex(0);
+    }
+}
+
+@media (max-width: 990px) {
+    .bigText {
+         margin: 32px;
+         font-family: 'IBM Plex Mono', monospace;
+         font-weight: 400;
+         font-size: 58px;
+     }
+
+    .bigTextDark {
+        margin: 32px;
+        font-family: 'IBM Plex Mono', monospace;
+        font-weight: 400;
+        font-size: 58px;
+        color: white;
+        opacity: 87%;
+    }
+
+    .bigTextTY {
+        margin: 32px;
+        font-family: 'IBM Plex Mono', monospace;
+        font-weight: 400;
+        font-size: 58px;
+    }
+
+    .bigTextTYDark {
+        margin: 32px;
+        font-family: 'IBM Plex Mono', monospace;
+        font-weight: 400;
+        font-size: 58px;
+        color: white;
+        opacity: 87%;
+    }
+}
+
+@media (max-width: 734px) {
+    .bigText {
+        margin: 32px;
+        font-family: 'IBM Plex Mono', monospace;
+        font-weight: 400;
+        font-size: 38px;
+    }
+
+    .bigTextDark {
+        margin: 32px;
+        font-family: 'IBM Plex Mono', monospace;
+        font-weight: 400;
+        font-size: 38px;
+        color: white;
+        opacity: 87%;
+    }
+
+    .bigTextTY {
+        margin: 32px;
+        font-family: 'IBM Plex Mono', monospace;
+        font-weight: 400;
+        font-size: 38px;
+    }
+
+    .bigTextTYDark {
+        margin: 32px;
+        font-family: 'IBM Plex Mono', monospace;
+        font-weight: 400;
+        font-size: 38px;
+        color: white;
+        opacity: 87%;
+    }
+
+    .memeImage {
+        margin: 0 32px 0 32px;
+        width: 88%;
+    }
+
+    .mainBlock {
+        width: 80%;
+        background-color: #fff;
+        overflow-y: scroll !important;
+        height: 100vh;
+        overflow-x: hidden;
+        z-index: 55;
+    }
+
+    .mainBlockDark {
+        width: 80%;
+        background-color: #232323;
+        overflow-y: scroll !important;
+        height: 100vh;
+        overflow-x: hidden;
+        z-index: 55;
+    }
+
+    .blackPart {
+        background-color: black;
+        opacity: 80%;
+        width: 20%;
+
+        animation-name: fadeInLeft;
+        animation-fill-mode: both;
+        animation-duration: 1.5s;
+        animation-delay: -0.3s;
+    }
+}
+
+@media (max-width: 400px) {
+    .bigText {
+        margin: 16px;
+        font-family: 'IBM Plex Mono', monospace;
+        font-weight: 400;
+        font-size: 32px;
+    }
+
+    .bigTextDark {
+        margin: 16px;
+        font-family: 'IBM Plex Mono', monospace;
+        font-weight: 400;
+        font-size: 32px;
+        color: white;
+        opacity: 87%;
+    }
+
+    .memeImage {
+        margin: 0 16px 0 16px;
+        width: 88%;
+    }
+
+    .bigTextTY {
+        margin: 16px 16px 84px 16px;
+        font-family: 'IBM Plex Mono', monospace;
+        font-weight: 400;
+        font-size: 32px;
+    }
+
+    .bigTextTYDark {
+        margin: 16px 16px 84px 16px;
+        font-family: 'IBM Plex Mono', monospace;
+        font-weight: 400;
+        font-size: 32px;
+        color: white;
+        opacity: 87%;
+    }
+}
