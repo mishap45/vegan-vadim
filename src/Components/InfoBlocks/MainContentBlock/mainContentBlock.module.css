@@ -55,7 +55,7 @@
     opacity: .87;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
     .descriptionMainContentBlock {
         font-family: 'IBM Plex Mono', monospace;
         margin-top: 0;

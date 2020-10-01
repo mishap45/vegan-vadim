@@ -28,7 +28,7 @@ const InfoBlocks: React.FC<DarkTheme> = ({darkTheme}) => {
                         text={'Англомовний канал з легкою подачею. Автор максимально розумно і просто розказує про крипту і' +
                         ' своє бачення подій у світі блокчейну. Він прийшов на ринок криптовалют у 2013-му році, коли біткоін' +
                         ' коштував $225, пережив два бичих ринка і переконаний, що буде ще багато бичих ринків попереду. Вірить,' +
-                        ' що криптовалюти домопожуть зробити зробити світ більш срціально справедливим.'}
+                        ' що криптовалюти домопожуть зробити зробити світ більш соціально справедливим.'}
                         darkTheme={darkTheme}
                     />
 
@@ -53,7 +53,7 @@ const InfoBlocks: React.FC<DarkTheme> = ({darkTheme}) => {
                 </div>
 
                 {
-                    window.innerWidth < 401
+                    window.innerWidth < 701
                         ? darkTheme ? <UnderLineDark/> : <UnderLine/>
                         : <br/>
                 }
@@ -102,7 +102,7 @@ const InfoBlocks: React.FC<DarkTheme> = ({darkTheme}) => {
                 </div>
 
                 {
-                    window.innerWidth < 401
+                    window.innerWidth < 701
                         ? darkTheme ? <UnderLineDark/> : <UnderLine/>
                         : <br/>
                 }

@@ -193,7 +193,7 @@
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
     .bigText {
         margin: 16px;
         font-family: 'IBM Plex Mono', monospace;

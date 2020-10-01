@@ -36,7 +36,7 @@ const Header: React.FC<HeaderPersonalTypes> = ({darkTheme, ChangeTheme, ChangeVi
 
                 <div>
                     {
-                        window.innerWidth < 735
+                        window.innerWidth < 800
                             ? <p className={darkTheme ? header.mainTextDark : header.mainText}>Веб-сайт у
                                 інтернеті <br/> Міші і Вадима</p>
                             :
@@ -47,7 +47,7 @@ const Header: React.FC<HeaderPersonalTypes> = ({darkTheme, ChangeTheme, ChangeVi
 
 
                 {
-                    window.innerWidth < 735
+                    window.innerWidth < 1025
                         ? <div onTouchStart={() => {
                             ChangeHover(false)
                         }} onTouchEnd={() => {

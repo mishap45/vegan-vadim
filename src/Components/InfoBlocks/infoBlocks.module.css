@@ -86,7 +86,7 @@
     color: #03DAC5;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
     .firstBlock {
         display: block;
     }
